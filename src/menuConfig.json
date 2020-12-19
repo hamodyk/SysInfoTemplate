@@ -1,0 +1,171 @@
+[
+  {
+    "itemName": "Confluence",
+    "isImg": false,
+    "imgSrc": "",
+    "class": "fab fa-confluence fa-lg menu-icon",
+    "style": {"color": "RoyalBlue"},
+    "subList": {
+      "items": [
+        {
+          "itemName": "Wiki 1",
+          "href": "https://www.example.com"
+        },
+        {
+          "itemName": "Wiki 2",
+          "href": "https://www.example.com"
+        },
+        {
+          "itemName": "Wiki 3",
+          "href": "https://www.example.com"
+        }
+      ]
+    }
+  },
+  {
+    "itemName": "Jenkins",
+    "isImg": true,
+    "imgSrc": "jenkins.svg",
+    "class": "",
+    "style": {},
+    "subList": {
+      "items": [
+        {
+          "itemName": "Jenkins 1",
+          "href": "https://www.example.com"
+        },
+        {
+          "itemName": "Jenkins 2",
+          "href": "https://www.example.com"
+        }
+      ]
+    }
+  },
+  {
+    "itemName": "Kibana",
+    "isImg": true,
+    "imgSrc": "elk.ico",
+    "class": "",
+    "style": {},
+    "subList": {
+      "items": [
+        {
+          "itemName": "PROD",
+          "href": "https://www.example.com"
+        },
+        {
+          "itemName": "UAT",
+          "href": "https://www.example.com"
+        },
+        {
+          "itemName": "DEV",
+          "href": "https://www.example.com"
+        }
+      ]
+    }
+  },
+  {
+    "itemName": "RabbitMQ",
+    "isImg": true,
+    "imgSrc": "rabbitmq.svg",
+    "class": "",
+    "style": {},
+    "subList": {
+      "items": [
+        {
+          "itemName": "PROD",
+          "href": "https://www.example.com"
+        },
+        {
+          "itemName": "STG",
+          "href": "https://www.example.com"
+        },
+        {
+          "itemName": "UAT",
+          "href": "https://www.example.com"
+        },
+        {
+          "itemName": "CI",
+          "href": "https://www.example.com"
+        },
+        {
+          "itemName": "DEV",
+          "href": "https://www.example.com"
+        }
+      ]
+    }
+  },
+  {
+    "itemName": "Grafana",
+    "isImg": true,
+    "imgSrc": "grafana.svg",
+    "class": "",
+    "style": {},
+    "subList": {
+      "items": [
+        {
+          "itemName": "Dashboard 1",
+          "href": "https://www.example.com"
+        },
+        {
+          "itemName": "Dashboard 2",
+          "href": "https://www.example.com"
+        },
+        {
+          "itemName": "Dashboard 3",
+          "href": "https://www.example.com"
+        }
+      ]
+    }
+  },
+  {
+    "itemName": "Dashboards",
+    "isImg": true,
+    "imgSrc": "dashboard.png",
+    "class": "",
+    "style": {},
+    "subList": {
+      "items": [
+        {
+          "itemName": "Dashboard 1",
+          "href": "https://www.example.com"
+        },
+        {
+          "itemName": "Dashboard 2",
+          "href": "https://www.example.com"
+        },
+        {
+          "itemName": "Dashboard 3",
+          "href": "https://www.example.com"
+        }
+      ]
+    }
+  },
+  {
+    "itemName": "JIRA",
+    "isImg": false,
+    "imgSrc": "",
+    "class": "fab fa-jira fa-lg menu-icon",
+    "style": {"color": "RoyalBlue"},
+    "subList": {
+      "items": [
+        {
+          "itemName": "Board 1",
+          "href": "https://www.example.com"
+        },
+        {
+          "itemName": "Board 2",
+          "href": "https://www.example.com"
+        },
+        {
+          "itemName": "Board 3",
+          "href": "https://www.example.com"
+        },
+        {
+          "itemName": "Board 4",
+          "href": "https://www.example.com"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,78 @@
+html {
+  min-height: 100%;
+}
+
+
+body.Theme1 {
+  background: whitesmoke;
+}
+
+body.Theme2 {
+  background: linear-gradient(-20deg, #d0b782 20%, #a0cecf 80%);
+}
+
+body.Theme3 {
+    background: #606c88;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3f4c6b, #606c88);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3f4c6b, #606c88); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+body {
+  margin: 20px;
+  color: #435757;
+  /*background: linear-gradient(-20deg, #d0b782 20%, #a0cecf 80%);*/
+  background-color: whitesmoke;
+  font: 500 1.2em/1.2 'Roboto', sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.ThemeSelection{
+    position: absolute;
+    right: 1%;
+    top: 3%;
+    border-radius: 25px;
+    background-color: transparent;
+}
+
+
+.siteTitle {
+    text-align: center;
+    margin-top:1%;
+    font-size: 1.5em;
+}
+
+.siteTitle.Theme1{
+    color: lightgray;
+}
+
+.siteTitle.Theme2{
+    color: #435757;
+}

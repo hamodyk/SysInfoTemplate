@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.box {
+  position: relative;
+  padding-left: 12px;
+  padding-right: 12px;
+  cursor: pointer;
+  line-height: 30px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 400;
+  color: black;
+  margin-right: 10px;
+  margin-left: 10px;
+  display: inline-block;
+  margin-bottom: .5rem;
+}
+
+.git {
+    color: crimson;
+    position: fixed;
+    bottom: 3%;
+    right: 1%;
+}
+
+.wiki {
+  color: royalblue;
+  position: fixed;
+  bottom: 3%;
+  right: 1.5%;
+}

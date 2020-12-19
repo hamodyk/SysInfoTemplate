@@ -1,0 +1,246 @@
+{
+  "environments": {
+    "mainEnvironments": [
+      {
+      "envName": "dev",
+      "subEnvironments":
+        [
+          {
+            "envName": "dev100",
+            "customChecks":[
+              {
+                "componentName": "App1-dev100",
+                "check": "http",
+                "sources": ["https://www.example.com", "https://www.example.com"],
+                "type": "other"
+              },
+              {
+                "componentName": "App2-dev100",
+                "check": "http",
+                "sources": ["https://www.example.com"],
+                "type": "other"
+              },
+              {
+                "componentName": "App3-dev100",
+                "check": "http",
+                "sources": ["https://www.example.com"],
+                "type": "other"
+              },
+              {
+                "componentName": "App4-dev100",
+                "check": "http",
+                "sources": ["https://www.example.com","https://www.example.com","https://www.example.com"],
+                "type": "other"
+              },
+              {
+                "componentName": "App5-dev100",
+                "check": "http",
+                "sources": ["https://www.example.com"],
+                "type": "other"
+              }
+            ]
+          },
+          {
+            "envName": "dev101",
+            "customChecks":[
+              {
+                "componentName": "App1-dev101",
+                "check": "http",
+                "sources": ["https://www.example.com"],
+                "type": "other"
+              },
+              {
+                "componentName": "App2-dev101",
+                "check": "http",
+                "sources": ["https://www.example.com"],
+                "type": "other"
+              },
+              {
+                "componentName": "App3-dev101",
+                "check": "http",
+                "sources": ["https://www.example.com"],
+                "type": "other"
+              },
+              {
+                "componentName": "App4-dev101",
+                "check": "http",
+                "sources": ["https://www.example.com"],
+                "type": "other"
+              },
+              {
+                "componentName": "App5-dev101",
+                "check": "http",
+                "sources": ["https://www.example.com"],
+                "type": "other"
+              }
+            ]
+          },
+          {
+            "envName": "dev102",
+            "customChecks":[
+              {
+                "componentName": "App1-dev102",
+                "check": "http",
+                "sources": ["https://www.example.com"],
+                "type": "other"
+              },
+              {
+                "componentName": "App2-dev102",
+                "check": "http",
+                "sources": ["https://www.example.com"],
+                "type": "other"
+              },
+              {
+                "componentName": "App3-dev102",
+                "check": "http",
+                "sources": ["https://www.example.com"],
+                "type": "other"
+              },
+              {
+                "componentName": "App4-dev102",
+                "check": "http",
+                "sources": ["https://www.example.com"],
+                "type": "other"
+              },
+              {
+                "componentName": "App5-dev102",
+                "check": "http",
+                "sources": ["https://www.example.com"],
+                "type": "other"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "envName": "ci",
+        "subEnvironments":
+        [
+          {
+            "envName": "ci",
+            "customChecks":[
+              {
+                "componentName": "App1-ci",
+                "check": "http",
+                "sources": ["https://www.example.com"],
+                "type": "other"
+              },
+              {
+                "componentName": "App2",
+                "check": "http",
+                "sources": ["https://www.example.com"],
+                "type": "other"
+              },
+              {
+                "componentName": "App3",
+                "check": "http",
+                "sources": ["https://www.example.com"],
+                "type": "other"
+              },
+              {
+                "componentName": "App4",
+                "check": "http",
+                "sources": ["https://www.example.com"],
+                "type": "other"
+              },
+              {
+                "componentName": "App5",
+                "check": "http",
+                "sources": ["https://www.example.com"],
+                "type": "storm"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "envName": "uat",
+        "subEnvironments":
+        [
+          {
+            "envName": "uat",
+            "customChecks": [
+              {
+                "componentName": "App1",
+                "check": "http",
+                "sources": ["https://www.example.com"],
+                "type": "other"
+              },
+              {
+                "componentName": "App2",
+                "check": "http",
+                "sources": ["https://www.example.com"],
+                "type": "other"
+              },
+              {
+                "componentName": "App3",
+                "check": "http",
+                "sources": ["https://www.example.com"],
+                "type": "other"
+              },
+              {
+                "componentName": "App4",
+                "check": "http",
+                "sources": ["https://www.example.com"],
+                "type": "ec2"
+              },
+              {
+                "componentName": "App5",
+                "check": "http",
+                "sources": ["https://www.example.com"],
+                "type": "storm"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "envName": "prod",
+        "subEnvironments":
+        [
+          {
+            "envName": "prod",
+            "customChecks": [
+              {
+                "componentName": "App1",
+                "check": "http",
+                "sources": ["https://www.example.com"],
+                "type": "ec2"
+              },
+              {
+                "componentName": "App2",
+                "check": "http",
+                "sources": ["https://www.example.com"],
+                "type": "other"
+              },
+              {
+                "componentName": "App3",
+                "check": "http",
+                "sources": ["https://www.example.com"],
+                "type": "other"
+              },
+              {
+                "componentName": "App4",
+                "check": "http",
+                "sources": ["https://www.example.com"],
+                "type": "other"
+              },
+              {
+                "componentName": "App5",
+                "check": "http",
+                "sources": ["https://www.example.com"],
+                "type": "storm"
+              },
+              {
+                "componentName": "App6",
+                "check": "http",
+                "sources": ["https://www.example.com", "https://www.example.com", "https://www.example.com"],
+                "type": "other"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
